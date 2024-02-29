@@ -8,6 +8,7 @@ function App() {
 	const [showColor, setShowColor] = useState(true);
 
 
+
 	const toggleColorVisibility = () => {
 		setShowColor(!showColor);
 	}
@@ -17,6 +18,7 @@ function App() {
 			<Header
 				onToggleColor={toggleColorVisibility}
 				showColor={showColor}
+				
 			/>
 			<Notifications showColor={showColor} />
 			<Viewed />
