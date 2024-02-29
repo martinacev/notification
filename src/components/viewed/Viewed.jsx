@@ -1,8 +1,8 @@
 import classes from "./Viewed.module.css";
-import face4 from "../../../public/face4.jpg";
-import face6 from "../../../public/face6.jpg";
-import face7 from "../../../public/face7.jpg";
-import face8 from '../../../public/face8.jpg';
+import face4 from "/face4.jpg";
+import face6 from "/face6.jpg";
+import face7 from "/face7.jpg";
+import face8 from '/face8.jpg';
 import PropTypes from "prop-types";
 
 const ViewedItems = ({
