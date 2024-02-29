@@ -64,7 +64,7 @@ const Viewed = () => (
 			image={face7}
 			reaction="reacted to your recent post"
 			action="strategies to increase your win rate"
-			timestamp="1 week ago"
+			timestamp="2 week ago"
 			showComment={false}
 		/>
 
@@ -73,7 +73,7 @@ const Viewed = () => (
 			image={face8}
 			reaction="left the group"
 			extraInfo="Chess Group"
-			timestamp="1 week ago"
+			timestamp="5 week ago"
 			showComment={false}
 		/>
 	</div>
