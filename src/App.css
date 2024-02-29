@@ -1,0 +1,20 @@
+body,
+h1,
+p {
+	margin: 0;
+	padding: 0;
+	color: black;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+}
+
+.container {
+	display: flex;
+	width: 700px;
+	background-color: #fff;
+	border-radius: 20px;
+	flex-direction: column;
+}

@@ -1,0 +1,109 @@
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+.box {
+	display: flex;
+	border-radius: 5px;
+	margin: 5px 30px;
+}
+
+.avatar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 40px;
+	height: 60px;
+	margin-left: 20px;
+}
+
+.profile {
+	border-radius: 20px;
+	width: 40px;
+	height: 40px;
+}
+
+.information {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 3px;
+	margin-left: 10px;
+	width: 100%;
+	margin-top: 15px;
+}
+
+.name {
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.react {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 15px;
+	margin-left: 5px;
+	color: grey;
+}
+
+.action {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 15px;
+	margin-left: 5px;
+	color: gray;
+	font-weight: bold;
+}
+
+.chess {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 15px;
+	margin-left: 5px;
+	color: rgb(2, 2, 128);
+	font-weight: bold;
+}
+
+.wrapper {
+	display: flex;
+    width: 100%;
+}
+
+.active {
+	width: 100%;
+	display: flex;
+	align-items: start;
+	justify-content: start;
+}
+
+.minuteAgo {
+	display: flex;
+	font-size: 12px;
+	font-weight: bold;
+	color: rgb(167, 165, 165);
+}
+
+.comment {
+	display: flex;
+	justify-content: start;
+	margin: 10px;
+	border: 1px solid rgb(197, 193, 193);
+	width: 90%;
+	border-radius: 5px;
+
+  }
+  
+  .message {
+	color: rgb(102, 102, 102);
+	font-size: 15px;
+	display: flex;
+	align-items: start;
+	justify-content: start;
+	width: 90%;
+	margin: 10px;
+  }
