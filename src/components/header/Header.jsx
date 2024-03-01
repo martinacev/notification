@@ -1,5 +1,5 @@
-import PropTypes from "prop-types";
 import { useState } from "react";
+import PropTypes from "prop-types";
 import classes from "./Header.module.css";
 
 const Header = ({ onToggleColor, showColor }) => {
@@ -24,7 +24,7 @@ const Header = ({ onToggleColor, showColor }) => {
           )}
         </div>
         <button
-          className={classes.btnRead}
+          className={`${classes.btnRead} ${buttonClicked ? classes.btnClicked : ""}`}
           onClick={handleClick}
           disabled={buttonClicked}
         >
@@ -41,3 +41,4 @@ Header.propTypes = {
 };
 
 export default Header;
+
