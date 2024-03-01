@@ -8,7 +8,7 @@ function App() {
 	const [showColor, setShowColor] = useState(true);
 
 	const toggleColorVisibility = () => {
-		setShowColor(!showColor);
+		setShowColor((prevShowColor) => !prevShowColor);
 	};
 
 	return (
