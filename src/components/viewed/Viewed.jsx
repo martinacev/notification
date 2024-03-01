@@ -69,7 +69,7 @@ const Viewed = () => (
 		/>
 
 		<ViewedItems
-			name="Martina Kostovska"
+			name="Martina Acevska"
 			image={face8}
 			reaction="left the group"
 			extraInfo="Chess Group"

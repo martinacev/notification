@@ -7,18 +7,15 @@ import Viewed from "./components/viewed/Viewed";
 function App() {
 	const [showColor, setShowColor] = useState(true);
 
-
-
 	const toggleColorVisibility = () => {
 		setShowColor(!showColor);
-	}
+	};
 
 	return (
 		<div className="container">
 			<Header
 				onToggleColor={toggleColorVisibility}
 				showColor={showColor}
-				
 			/>
 			<Notifications showColor={showColor} />
 			<Viewed />
