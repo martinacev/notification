@@ -21,8 +21,8 @@ const NotificationItem = ({
       <div className={classes.wrapper}>
         <p className={classes.name}>{name}</p>
         <p className={classes.react}>{reaction}</p>
-        {action && <p className={classes.action}>{action}</p>}
-        {extraInfo && <p className={classes.chess}>{extraInfo}</p>}
+        <p className={classes.action}>{action}</p>
+        <p className={classes.chess}>{extraInfo}</p>
       </div>
       <div className={classes.active}>
         <p className={classes.minuteAgo}>{timestamp}</p>
